@@ -1,8 +1,8 @@
 package efs.task.collections.entity;
 
 import java.util.List;
-
-public class Town {
+import java.util.Objects;
+public class Town implements Comparable{
     private String townName;
     private List<String> startingHeroClasses;
 
