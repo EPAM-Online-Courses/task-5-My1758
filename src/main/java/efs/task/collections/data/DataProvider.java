@@ -22,6 +22,7 @@ public class DataProvider {
             String[] lineSplit = line.split(DATA_SEPARATOR);
             Town tmp = new Town(lineSplit[0].trim(), Arrays.asList(lineSplit[1].trim(), lineSplit[2].trim()));
             TownsList.add(tmp);
+            
         }
         return TownsList;
     }
